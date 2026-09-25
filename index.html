@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evy Braids | Tranças Estilo Identidade</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Evy Braids</div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Tranças.<br><span>Identidade.</span><br>Atitude.</h1>
+            <p>Seu cabelo pode dizer muito sobre você. Encontre o visual que combina com a sua expressão.</p>
+            <div class="cta-buttons">
+                <a href="https://wa.me/5511999999999" target="_blank" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> QUERO MEU ORÇAMENTO</a>
+                <a href="https://instagram.com/evygbraids" target="_blank" class="btn btn-instagram"><i class="fab fa-instagram"></i> Atendimento Instagram</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="section-header">
+            <span class="number">01</span>
+            <h2>Conheça a profissional</h2>
+        </div>
+        <div class="about-content">
+            <h3>Prazer, Evellyn.</h3>
+            <p>Evellyn Guimarães é trancista e o nome por trás da Evy Braids. Seu portfólio reúne desenhos na raiz, diferentes texturas e comprimentos que valorizam a expressão de cada pessoa.</p>
+        </div>
+    </section>
+
+    <section class="portfolio">
+        <div class="section-header">
+            <span class="number">02</span>
+            <h2>Portfólio</h2>
+            <p>O desenho faz a diferença.</p>
+        </div>
+        <div class="cards-container">
+            <div class="card" data-tilt>
+                <div class="card-img placeholder">
+                    <img src="imagens/nago-desenhada.jpg" alt="Nagô desenhada" onerror="this.style.display='none';">
+                    <span>Salve a foto como nago-desenhada.jpg na pasta 'imagens'</span>
+                </div>
+                <div class="card-info">
+                    <h3>Nagô desenhada</h3>
+                    <p>Curvas que lembram um coração, com acessórios azuis e verdes. O desenho acompanha a raiz.</p>
+                </div>
+            </div>
+            
+            <div class="card" data-tilt>
+                <div class="card-img placeholder">
+                    <img src="imagens/nago-curvas.jpg" alt="Nagô em curvas" onerror="this.style.display='none';">
+                    <span>Salve a foto como nago-curvas.jpg na pasta 'imagens'</span>
+                </div>
+                <div class="card-info">
+                    <h3>Nagô em curvas</h3>
+                    <p>Linhas curvas conduzem as tranças para a parte de trás. A divisão define o acabamento.</p>
+                </div>
+            </div>
+
+            <div class="card" data-tilt>
+                <div class="card-img placeholder">
+                    <img src="imagens/raiz-marcada.jpg" alt="Raiz marcada" onerror="this.style.display='none';">
+                    <span>Salve a foto como raiz-marcada.jpg na pasta 'imagens'</span>
+                </div>
+                <div class="card-info">
+                    <h3>Raiz marcada. Mechas soltas.</h3>
+                    <p>A nagô se combina ao comprimento e a mechas onduladas junto ao rosto.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq">
+        <div class="section-header">
+            <h2>Antes de marcar</h2>
+            <p>Tudo começa na conversa.</p>
+        </div>
+        <div class="accordion">
+            <div class="accordion-item">
+                <h4>Como peço um orçamento?</h4>
+                <p>Envie no Instagram a referência escolhida, comprimento, cor, uma foto atual do seu cabelo e a data desejada.</p>
+            </div>
+            <div class="accordion-item">
+                <h4>Quanto custa e quanto tempo leva?</h4>
+                <p>Valor e duração dependem do modelo, comprimento, quantidade de tranças e materiais. Consulte Evellyn.</p>
+            </div>
+            <div class="accordion-item">
+                <h4>Como cuido depois?</h4>
+                <p>Peça orientações de lavagem, secagem, proteção ao dormir, manutenção e retirada para a técnica escolhida.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-cta">
+            <h2>Pronta para se ver diferente?</h2>
+            <p>Mande sua inspiração. Consulte orçamento, local de atendimento e disponibilidade com Evellyn.</p>
+            <a href="https://instagram.com/evygbraids" target="_blank" class="btn btn-instagram"><i class="fab fa-instagram"></i> PEDIR ORÇAMENTO NO INSTAGRAM</a>
+        </div>
+        
+        <div class="footer-credits">
+            <p>feito por Andrew Moura @andrewgestortrafego 11954377399</p>
+        </div>
+    </footer>
+
+    <!-- Biblioteca Vanilla Tilt para o efeito 3D leve -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".card"), {
+            max: 15,
+            speed: 400,
+            glare: true,
+            "max-glare": 0.2
+        });
+    </script>
+</body>
+</html>
